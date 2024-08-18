@@ -1,0 +1,34 @@
+/* Estilos personalizados */
+header h1 {
+    font-size: 2.5rem;
+}
+
+main h2 {
+    color: #007bff; /* Altera a cor do título principal */
+}
+
+main p {
+    font-size: 1.1rem; /* Aumenta um pouco o tamanho do texto */
+    line-height: 1.6;  /* Melhor espaçamento entre linhas */
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Estilos de link na barra lateral */
+.sidebar-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.sidebar-link:hover {
+    text-decoration: underline;
+}
+
+/* Personalizando a barra de navegação */
+
+
+.navbar-nav .nav-link.active {
+    font-weight: bold; /* Realça o link ativo */
+}

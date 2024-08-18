@@ -1,0 +1,90 @@
+:root {
+    --primary-color: #007BFF;
+    --secondary-color: #6C757D;
+    --font-family: Arial, sans-serif;
+    --spacing-unit: 10px;
+}
+
+body {
+    font-family: var(--font-family);
+    color: var(--secondary-color);
+}
+
+.btn {
+    background-color: var(--primary-color);
+    padding: var(--spacing-unit);
+}
+
+.custom-img-ad {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.custom-img-ad-main {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+.shadow {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.rounded {
+    border-radius: 10px;
+}
+
+.highlights-nav a {
+    font-family: Arial, sans-serif; 
+    font-weight: bold; 
+    color: #000; 
+    text-transform: uppercase; 
+    text-decoration: none; 
+    margin-right: 10px;
+}
+
+.highlights-nav a:hover {
+    text-decoration: underline;
+}
+
+.highlights-label {
+    font-weight: normal;
+    color: #ccc; 
+}
+
+.button-menu {
+    background-color: #F8F9FA;
+    color: black;
+    border-radius: 10%
+  }
+  
+  .button-menu:hover {background-color: #e7e7e7;}
+
+  .temperature {
+    display: flex;
+    align-items: center;
+}
+
+.temperature__icon {
+    width: 60px;
+    margin-right: 10px;
+}
+
+.temperature__city {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.temperature__link {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.temperature__link:hover {
+    text-decoration: underline;
+}
+
