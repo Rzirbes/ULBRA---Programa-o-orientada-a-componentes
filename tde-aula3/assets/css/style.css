@@ -18,4 +18,5 @@ main {
     background-color: #777;
     color: #fff;
     border-radius: 5px;
+    cursor: pointer;
 }
