@@ -8,7 +8,7 @@ interface InputCheckboxProps {
 
 export default function InputCheckbox({ label, name, selectedValue, onChange }: InputCheckboxProps) {
     return (
-        <div className="mt-4">
+        <div className="mt-4 text-zinc-900 dark:text-zinc-200">
             <label className="text-sm block">{label}</label>
             <div className="flex space-x-4 mt-2">
                 <label className="flex items-center">

@@ -2,15 +2,15 @@ import { useEffect, useState } from "react";
 import Botao from "./botao";
 
 export default function Localizacao() {
-    const [localizacao, setLocalizacao] = useState<any>(null); 
-    const [mostrarLocalizacao, setMostrarLocalizacao] = useState(false); 
+    const [localizacao, setLocalizacao] = useState<any>(null);
+    const [mostrarLocalizacao, setMostrarLocalizacao] = useState(false);
 
 
     useEffect(() => {
         const fetchCep = async () => {
             const response = await fetch('https://viacep.com.br/ws/95560000/json/');
             const data = await response.json();
-            setLocalizacao(data); 
+            setLocalizacao(data);
         };
 
         fetchCep();
@@ -24,7 +24,9 @@ export default function Localizacao() {
             />
 
             {mostrarLocalizacao && localizacao && (
-                <div className=" flex gap-6 mt-4 p-4 rounded">
+                <div className=" 
+                    flex gap-6 mt-4 px-7 rounded
+                    dark:text-zinc-200  text-zinc-900 dark:bg-zinc-800">
                     <p><strong>CEP:</strong> {localizacao.cep}</p>
                     <p><strong>Cidade:</strong> {localizacao.localidade}</p>
                     <p><strong>UF:</strong> {localizacao.uf}</p>

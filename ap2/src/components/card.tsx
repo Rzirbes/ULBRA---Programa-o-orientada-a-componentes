@@ -12,6 +12,7 @@ export default function Card(props: CardProps) {
         <div>
             <div className="
             flex flex-col items-center h-80
+            dark:text-zinc-200  text-zinc-900 dark:bg-zinc-800
             border border-zinc-700 p-5 rounded-lg
         ">
                 <Image
